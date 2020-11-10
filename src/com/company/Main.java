@@ -18,7 +18,7 @@ class Main {
 
         Quiz quiz = new QuizImpl();
         Compartment compartment=new Compartment();
-        int digit =  100; // zainicjuj zmienna
+        int digit = ((Quiz.MAX_VALUE+Quiz.MIN_VALUE)/2); // zainicjuj zmienna
 
         for(int counter = 1; ;counter++) {
 
